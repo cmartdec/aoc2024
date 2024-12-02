@@ -4,6 +4,8 @@ lines = D.split("\n")
 
 ans = 0
 
+# part one
+
 for line in lines:
 	xs = list(map(int, line.split()))
 	inc_or_dec = (xs==sorted(xs) or xs==sorted(xs, reverse=True))
